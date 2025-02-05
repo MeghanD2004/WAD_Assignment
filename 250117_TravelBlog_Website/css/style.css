@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  .nav-list {
+    display: flex; /* Horizontal layout */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 1rem;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .social-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .blog-item {
+    flex: 1 1 calc(33.333% - 2rem);
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    
+  }
+  
+  .pagination {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .about .author-profiles {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .author {
+    text-align: center;
+  }
+
+/* Author Profiles */
+.about .author-profiles {
+    display: flex;
+    gap: 3rem; /* Increase space between authors */
+    padding: 2rem 1rem; /* Adjust padding around the profiles */
+    justify-content: center; /* Center the profiles horizontally */
+    align-items: center; /* Center vertically for consistency */
+}
+
+.author {
+    text-align: center;
+    margin: 0 auto; /* Center the individual author block */
+}
+
+.author img {
+    width: 150px; /* Fixed size for uniformity */
+    height: 150px;
+    object-fit: cover; /* Ensures the image is contained properly */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #333; /* Optional border for a polished look */
+    margin-bottom: 1rem;
+}
+
+.author h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.author p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0; /* Add some spacing below the text */
+}
+
+/* General Layout Adjustments */
+.about h1 {
+    text-align: center; /* Center the "About Us" heading */
+    margin-bottom: 1.5rem; /* Add spacing below the heading */
+}
+
+.about p {
+    text-align: center; /* Center the welcome text */
+    margin-bottom: 2rem; /* Add spacing below the paragraph */
+    font-size: 1.1rem; /* Slightly increase font size for readability */
+}
+
+/* Footer Adjustments */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333; /* Match the navbar color */
+    color: white;
+    font-size: 0.9rem;
+}
