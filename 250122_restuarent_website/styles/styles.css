@@ -1,0 +1,134 @@
+/* Styles */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: #f4f4f4; */
+    margin: 0%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    /* background-image: url('mages/bg.jpg');
+    background-size: cover;*/
+    /*background-repeat: no-repeat;  */
+}
+
+.centered-text {
+    padding: 20 px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: name;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: name;
+}
+
+nav ul li a:hover{
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foodgallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
